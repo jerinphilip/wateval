@@ -3,9 +3,9 @@ import argparse
 import langid
 import sys
 import subprocess as sp
-from .indic_normalize \
+from indicnlp.normalize.indic_normalize \
         import IndicNormalizerFactory
-from .indic_tokenize \
+from indicnlp.tokenize.indic_tokenize \
         import trivial_tokenize as tokenize
 import warnings
 
