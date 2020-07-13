@@ -9,6 +9,7 @@ from .indic_tokenize \
         import trivial_tokenize as tokenize
 import warnings
 
+
 def run_with_sp_and_return_stdout(cmd):
     output = None
     if sys.version_info[0] < 3:
@@ -92,8 +93,17 @@ class Evaluator:
         else:
             factory = IndicNormalizerFactory()
             normalizer = factory.get_normalizer(lang, remove_nuktas=False)
-            with open(fname) as istream:
-                with open(tokenized_file, 'w+') as ostream:
+
+            def fopen(fname, *args, **kwargs):
+                if sys.version_info[0] < 3:
+                    import codecs
+                    return codecs.open(fname, *args, encoding='utf-8', **kwargs)
+                else:
+                    return open(fname, *args, **kwargs)
+
+
+            with fopen(fname) as istream:
+                with fopen(tokenized_file, 'w+') as ostream:
                     for line in istream:
                         line = line.strip()
                         line = normalizer.normalize(line)
