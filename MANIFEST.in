@@ -1,0 +1,4 @@
+include wsacreblue/scripts/*
+include wsacreblue/share/*
+include wsacreblue/generic/*
+
