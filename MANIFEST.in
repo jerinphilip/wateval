@@ -1,4 +1,4 @@
-include wsacreblue/scripts/*
-include wsacreblue/share/*
-include wsacreblue/generic/*
+recursive-include wsacreblue/scripts
+recursive-include wsacreblue/share/
+recursive-include wsacreblue/generic/
 
