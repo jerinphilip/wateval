@@ -1,4 +1,4 @@
-recursive-include wsacreblue/scripts
-recursive-include wsacreblue/share/
-recursive-include wsacreblue/generic/
+include wsacrebleu/scripts/tokenizer.perl 
+include wsacrebleu/generic/multi-bleu.perl
+recursive-include wsacrebleu share/nonbreaking_prefixes/*
 
