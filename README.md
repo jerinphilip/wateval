@@ -16,7 +16,7 @@ evaluation using (sadly) `multi-bleu.perl` is packaged within this
 repository through shell calls through python for quick and minimal
 changes, albeit to the authors dislike. The author eventually hopes this
 can be merged nicely with
-[mjpost/sacreblue](https://github.com/mjpost/sacreblue).
+[mjpost/sacrebleu](https://github.com/mjpost/sacrebleu).
 
 ## Instructions
 
