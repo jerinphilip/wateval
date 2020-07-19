@@ -14,7 +14,7 @@ The licenses for the respective repositories and files apply to the
 sources taken from each. The tokenization strategy and the BLEU score
 evaluation using (sadly) `multi-bleu.perl` is packaged within this
 repository through shell calls through python for quick and minimal
-changes, albeit to the authors dislike. The author eventually hopes this
+changes, much to the author's dislike. The author eventually hopes this
 can be merged nicely with
 [mjpost/sacrebleu](https://github.com/mjpost/sacrebleu).
 
