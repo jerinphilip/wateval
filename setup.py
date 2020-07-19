@@ -12,7 +12,7 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'wsacrebleu'
+NAME = 'wateval'
 DESCRIPTION = 'WAT Consistent Tokenization'
 URL = 'https://github.com/jerinphilip/wsacrebleu'
 EMAIL = 'jerin.philip@research.iiit.ac.in'
