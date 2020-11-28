@@ -1,4 +1,4 @@
-include wsacrebleu/scripts/tokenizer.perl 
-include wsacrebleu/generic/multi-bleu.perl
-recursive-include wsacrebleu share/nonbreaking_prefixes/*
+include wateval/scripts/tokenizer.perl 
+include wateval/generic/multi-bleu.perl
+recursive-include wateval share/nonbreaking_prefixes/*
 
